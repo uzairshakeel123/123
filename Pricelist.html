@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RYANA CALENDERS | Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: url("https://images.unsplash.com/photo-1598125443421-779f98323fe4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4%;
+    padding: 12% 0;
+}
+
+.card {
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+}
+
+.card_title {
+    font-weight: normal;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.pricing {
+    font-weight: normal;
+    font-size: 96px;
+}
+
+.pricing .small {
+    font-size: 16px;
+}
+
+hr {
+    margin-top: 70px;
+}
+
+.features {
+    margin: 40px 0;
+    list-style-position: inside;
+}
+
+.features li {
+    padding-bottom: 10px;
+}
+
+a.cta_btn {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    background: rgba(21, 23, 24, 0.7);
+    border-radius: 29px;
+    padding: 20px 0;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: background .3s ease;
+}
+
+a.cta_btn:hover {
+    background: #000;
+}
+.link {
+    position: fixed;
+    background-color: #D12322;
+    padding: 23px 40px;
+    right: -99px;
+    border-radius: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    transform: rotate(-90deg);
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .1s ease-in-out;
+}
+
+.link i {
+    padding-left: 7px;
+}
+
+.link:hover {
+    text-decoration: underline;
+    background-color: black;
+}
+@media only screen and (max-width: 1024px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 2%;
+
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 2%;
+        padding-bottom: 25%;
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .card {
+        padding: 30px;
+    }
+
+    .card_title {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .pricing {
+        font-size: 52px;
+    }
+
+    hr {
+        margin-top: 50px;
+    }
+
+    a.cta_btn {
+        font-size: 11px;
+    }
+}
+    </style>
+</head>
+<body>
+    <section class="header">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="brand-name">
+                    <a href="index.html"><img src="img/icons/logo1.png" alt=""></a>
+                </div>
+         <div class="nav-toggle">
+           <span></span>
+         </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about">About</a></li>
+                        <li><a href="products">Products</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                        <li><a href="Pricelist.html">Price list</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+</div>
+    <div class="container">
+        <div class="grid">
+            <div class="card">
+                <h2 class="card_title">Student</h2>
+                <p class="pricing">20$<span class="small">/per month</span></p>
+                <p>Save $9</p>
+                <hr>
+                <ul class="features">
+                    <li>One account</li>
+                    <li>Unlimited Calender</li>
+                    <li>Customized RayanaCalender</li>
+                </ul>
+                <a href="#" class="cta_btn">Buy Now</a>
+            </div>
+            <div class="card">
+                <h2 class="card_title">Personal</h2>
+                <p class="pricing">39$<span class="small">/per month</span></p>
+                <p>Save $15</p>
+                <hr>
+                <ul class="features">
+                    <li>One account</li>
+                    <li>Unlimited Calender</li>
+                    <li>Customized RayanaCalender</li>
+                </ul>
+                 <a href="#" class="cta_btn">Buy Now</a>
+            </div>
+            <div class="card">
+                <h2 class="card_title">Family</h2>
+                <p class="pricing">60$<span class="small">/per month</span></p>
+                <p>Save $25</p>
+                <hr>
+                <ul class="features">
+                    <li>Six account</li>
+                    <li>Unlimited Calender</li>
+                    <li>Customized RayanaCalender</li>
+                </ul>
+                 <a href="#" class="cta_btn">Buy Now</a>
+            </div>
+        </div>
+    </div>
+<a href="https://youtu.be/RLReK22LWTo" target="_blank" class="link">Watch on youtube <i class="fab fa-youtube"></i></a>
+
+<!-- Footer starts -->
+<div class="footer">
+    <div class="f-row">
+
+        <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and ios mobile phone.</p>
+            <div class="app-logo">
+                <img src="img/icons/play-store.png" alt="">
+                <img src="img/icons/app-store.png" alt="">
+            </div>
+        </div>
+        <div class="footer-col-2">
+            <img src="img/icons/logo1.png" alt="">
+            <p>Our Purpose is to Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many and to Sell our Products at reasonable Price.</p>
+        </div>
+        <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+                <li>Coupons</li>
+                <li>Return Policy</li>
+                <li>Join Affiliate</li>
+                <li>Report Abuse</li>
+            </ul>
+        </div>
+        <div class="footer-col-4">
+            <h3>Stay Connected</h3>
+            <p>Join over 10,500 People who recieve Bi-Weekly Our Latest Products News.</p>
+            <input type="email" placeholder="Email Address">
+            <button>Sign-Up</button>
+        </div>
+    </div>
+        <hr>
+        <p class="copyright">Copyright 2021 - RYANA CALENDERS</p>
+</div>
+<!-- Footer ends -->
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+
